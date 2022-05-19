@@ -1,0 +1,35 @@
+{
+  "name": "google-calendar-todo-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server --hot --port 5500",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisdefromont/google-calendar-todo-scheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louisdefromont/google-calendar-todo-scheduler/issues"
+  },
+  "homepage": "https://github.com/louisdefromont/google-calendar-todo-scheduler#readme",
+  "devDependencies": {
+    "@types/gapi": "^0.0.42",
+    "@types/gapi.client.calendar": "^3.0.10",
+    "@types/google.accounts": "^0.0.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "gapi": "^0.0.3",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
