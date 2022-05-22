@@ -9,8 +9,15 @@
 
     <!--Add buttons to initiate auth sequence and sign out-->
     <pre id="content" style="white-space: pre-wrap;"></pre>
-    <button id="authorize-button">Authorize</button>
+    <button id="authorize_button">Authorize</button>
+    <button id="signout_button" style="visibility: hidden;">Sign Out</button>
+    <button id="schedule_tasks_button" style="visibility: hidden;">Schedule Tasks</button>
+    
+
+    <pre id="content" style="white-space: pre-wrap;"></pre>
 
     <script src="bundle.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js"></script>
+    <script async defer src="https://accounts.google.com/gsi/client"></script>
   </body>
 </html>
